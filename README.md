@@ -71,3 +71,13 @@ See mood update.
 ### HighMeshToLowNormalPNG.py :高模烘焙低模法线贴图
 
 先选择高模，在选择低模，运行脚本【记得代码中写上输出位置】
+
+
+
+## 文件夹：Web - 网页
+
+#### AccessibleWeb.py： 基础的Web使用，通过streamlit使用
+
+效果：[Python功能制作之使用streamlit做一个简单的WebUI-CSDN博客](https://hanwenshilin-dftx8.blog.csdn.net/article/details/140068289)
+
+### 
