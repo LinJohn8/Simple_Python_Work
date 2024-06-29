@@ -66,11 +66,17 @@ See mood update.
 
 ### 基础了解如何在Blender中使用python：
 
-[在Blender中使用python脚本_blender脚本如何使用-CSDN博客](https://hanwenshilin-dftx8.blog.csdn.net/article/details/134161926)
+效果：[在Blender中使用python脚本_blender脚本如何使用-CSDN博客](https://hanwenshilin-dftx8.blog.csdn.net/article/details/134161926)
 
 ### HighMeshToLowNormalPNG.py :高模烘焙低模法线贴图
 
 先选择高模，在选择低模，运行脚本【记得代码中写上输出位置】
+
+### StringInMesh.py:将视口中的画面转换为字符画面【可自定义字符】
+
+效果：[通过Python脚本实现字符画-CSDN博客](https://hanwenshilin-dftx8.blog.csdn.net/article/details/140070748)
+
+
 
 
 
