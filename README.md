@@ -86,4 +86,15 @@ See mood update.
 
 效果：[Python功能制作之使用streamlit做一个简单的WebUI-CSDN博客](https://hanwenshilin-dftx8.blog.csdn.net/article/details/140068289)
 
-### 
+
+
+
+
+## 文件夹：Auto - 自动化
+
+### CSDNCheck.py：获取CSDN所有发布文章的对应数据
+
+效果：[Python功能制作之获取CSDN所有发布文章的对应数据-CSDN博客](https://blog.csdn.net/q244645787/article/details/140362927)
+
+
+
