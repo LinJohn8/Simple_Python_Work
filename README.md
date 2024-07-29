@@ -106,3 +106,4 @@ See mood update.
 
 ### PictureConvertASCII.py:将选择图片转换为字符图片
 
+效果：[Python功能制作之图片转换为字符图片【直接转换图片，不转换为txt】-CSDN博客](https://hanwenshilin-dftx8.blog.csdn.net/article/details/140760254)
