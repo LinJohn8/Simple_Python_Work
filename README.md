@@ -96,5 +96,13 @@ See mood update.
 
 效果：[Python功能制作之获取CSDN所有发布文章的对应数据-CSDN博客](https://blog.csdn.net/q244645787/article/details/140362927)
 
+### FreshVideo.py：自动刷视频和点赞
 
+安卓手机连接adb进行使用，打开对应视频app，然后开始刷
+
+
+
+## 文件夹：OtherFunction其他功能
+
+### PictureConvertASCII.py:将选择图片转换为字符图片
 
