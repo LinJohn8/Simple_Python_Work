@@ -52,6 +52,10 @@ See mood update.
 
 效果：[Python功能制作之正则表达式批量删除并重命名文件_批量重命名 正则表达式-CSDN博客](https://hanwenshilin-dftx8.blog.csdn.net/article/details/134226417)
 
+### GenerateSmallPicture.py：通过8K图片添加4K，2K，1K图片，并给1K图片添加水印
+
+
+
 
 
 ## 文件夹：Widget - 界面
