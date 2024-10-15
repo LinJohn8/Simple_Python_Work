@@ -8,8 +8,8 @@ import time
 # 获取当前时间的时间戳
 start_time = time.time()
 
-# 设置循环的持续时间为2小时（以秒为单位）
-duration = 2 * 60 * 60
+# 设置循环的持续时间为4小时（以秒为单位）
+duration = 4 * 60 * 60
 
 # 假设手机已经连接并启用了ADB调试模式（下面会说明）
 # 确保你已经安装了ADB工具，并将其路径添加到系统环境变量中
@@ -17,15 +17,24 @@ duration = 2 * 60 * 60
 def swipe_up():
     while True:
         # 在这里写入你想要重复执行的代码
-
-        subprocess.run(["adb", "shell", "input", "swipe", "500", "1500", "500", "1000", "200"])
+        # kshou
+        # subprocess.run(["adb", "shell", "input", "tap", str(500), str(400)])
+        # zfb
+        subprocess.run(["adb", "shell", "input", "swipe", "500", "1500", "500", "1000", "200"])  # 分屏，上屏幕
+        time.sleep(1)
+        # subprocess.run(["adb", "shell", "input", "swipe", "500", "500", "500", "200", "200"])  # 分屏，上屏幕
+        # time.sleep(1)
+        # subprocess.run(["adb", "shell", "input", "tap", str(500), str(1200)])
+        # subprocess.run(["adb", "shell", "input", "swipe", "500", "1500", "500", "1200", "200"])  # 分屏，下屏幕
+        # time.sleep(1)
+        # subprocess.run(["adb", "shell", "input", "swipe", "500", "1500", "500", "1300", "200"])  # 分屏，下屏幕
         # 检查是否已经达到循环的持续时间
         elapsed_time = time.time() - start_time
         if elapsed_time >= duration:
             break
         # 生成随机的休眠时间在 1 到 20 秒之间
-        sleep_time = random.randint(1, 5)
-        should_swipe = random.choice([True, False])
+        sleep_time = random.randint(1 , 8)
+        should_swipe = False # random.choice([True, False])
         if should_swipe:
             for _ in range(5):
                 # 执行点击命令

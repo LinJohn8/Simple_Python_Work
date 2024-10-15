@@ -12,13 +12,18 @@ def resize_image(input_image_path):
 
     # 定义分辨率和对应的文件名后缀
     resolutions = {
+        "8k": (7680, 4320),
         "4k": (3840, 2160),
         "2k": (2560, 1440),
         "1k": (1920, 1080)
     }
 
+    resolutions_1k = {
+        "1k": (1920, 1080)
+    }
+
     resized_image_paths = []
-    for res_name, res_size in resolutions.items():
+    for res_name, res_size in resolutions_1k.items():
         # 调整图片大小
         resized_img = img.resize(res_size, Image.LANCZOS)
         # 生成新的文件名和完整输出路径
@@ -56,10 +61,11 @@ def add_watermark(input_image_path, watermark_text):
 
 
 # 调用函数，输入你的8K图片地址 - 生成1k, 2k, 4k图片
-input_image_path = 'F:\\AIWork\\ComfyUI_Full\\ComfyUI\\output\\monster_00001_.png'
+input_image_path = 'C:\\Users\\ADMIN\\Desktop\\方块\\奇怪的方块_6.png'
 resized_image_paths = resize_image(input_image_path)
 
 # 调用函数，为生成的1k图片添加水印
 for resized_image_path in resized_image_paths:
     if '_1k' in resized_image_path:
-        add_watermark(resized_image_path, '@御坂8号')
+        # add_watermark(resized_image_path, '@御坂8号')
+        print("a")
