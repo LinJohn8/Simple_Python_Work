@@ -1,9 +1,11 @@
 import os
 from mutagen.mp3 import MP3
 
+
 def get_mp3_duration(file_path):
     audio = MP3(file_path)
     return audio.info.length
+
 
 def get_total_duration(directory):
     total_duration = 0
@@ -16,6 +18,7 @@ def get_total_duration(directory):
                 except Exception as e:
                     print(f"Error reading {file}: {e}")
     return total_duration
+
 
 # 将 "your_directory" 替换为包含 MP3 文件的文件夹路径
 directory = r"C:\Users\ADMIN\Desktop\2"

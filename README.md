@@ -22,47 +22,15 @@ See mood update.
 
 
 
-## 文件夹：DynamicViewChart_csv - 图表查看
+## 文件夹：Auto - 自动化
 
-### DynamicViewChart_csv.py :动态查看csv图表【动画效果】
+### CSDNCheck.py：获取CSDN所有发布文章的对应数据
 
-效果：[Python功能制作之流动折线图_python制作动态折线图-CSDN博客](https://hanwenshilin-dftx8.blog.csdn.net/article/details/139010422)
+效果：[Python功能制作之获取CSDN所有发布文章的对应数据-CSDN博客](https://blog.csdn.net/q244645787/article/details/140362927)
 
+### FreshVideo.py：自动刷视频和点赞
 
-
-## 文件夹：VideoPlay - 音乐
-
-### VideoPlay.py :简单的音乐播放器
-
-效果：[Python功能制作之简单的音乐播放器_python播放器源码-CSDN博客](https://hanwenshilin-dftx8.blog.csdn.net/article/details/132418181)
-
-需要自己配置对应的图片和音乐，这里只提供代码
-
-
-
-## 文件夹：QucikFunction - 快操功能
-
-### FindSuffixCopy.py :遍历某个文件夹，复制某后缀到另一个文件夹中
-
-效果：[Python功能制作之【遍历某个文件夹，复制某后缀到另一个文件夹中】_python根据后缀批量复制文件-CSDN博客](https://hanwenshilin-dftx8.blog.csdn.net/article/details/132482613)
-
-### MoreDeleteRenameFile.py :批量删除并重命名文件
-
-含义：文件10001_new10001.png，批量类型的这种文件，改为10001.png
-
-效果：[Python功能制作之正则表达式批量删除并重命名文件_批量重命名 正则表达式-CSDN博客](https://hanwenshilin-dftx8.blog.csdn.net/article/details/134226417)
-
-### GenerateSmallPicture.py：通过8K图片添加4K，2K，1K图片，并给1K图片添加水印
-
-
-
-
-
-## 文件夹：Widget - 界面
-
-### SimpleDrawBoard.py :简单的绘画板
-
-效果：[Python功能制作之简单的绘画板_python绘画板软件-CSDN博客](https://hanwenshilin-dftx8.blog.csdn.net/article/details/132524125)
+安卓手机连接adb进行使用，打开对应视频app，然后开始刷
 
 
 
@@ -82,6 +50,80 @@ See mood update.
 
 
 
+## 文件夹：Draw中的python脚本
+
+### EasyDraw.py：画一个美国队长的盾牌图案的简单效果
+
+### ToGif.py:将图片作为Gif，效果是旋转图片
+
+
+
+## 文件夹：DynamicViewChart_csv - 图表查看
+
+### DynamicViewChart_csv.py :动态查看csv图表【动画效果】
+
+效果：[Python功能制作之流动折线图_python制作动态折线图-CSDN博客](https://hanwenshilin-dftx8.blog.csdn.net/article/details/139010422)
+
+
+
+## 文件夹：VideoPlay - 音乐
+
+### VideoPlay.py :简单的音乐播放器
+
+效果：[Python功能制作之简单的音乐播放器_python播放器源码-CSDN博客](https://hanwenshilin-dftx8.blog.csdn.net/article/details/132418181)
+
+需要自己配置对应的图片和音乐，这里只提供代码
+
+
+
+
+
+
+
+## 文件夹：OtherFunction其他功能
+
+### PictureConvertASCII.py:将选择图片转换为字符图片
+
+效果：[Python功能制作之图片转换为字符图片【直接转换图片，不转换为txt】-CSDN博客](https://hanwenshilin-dftx8.blog.csdn.net/article/details/140760254)
+
+
+
+
+
+
+
+## 文件夹：QucikFunction - 快操功能
+
+### FindSuffixCopy.py :遍历某个文件夹，复制某后缀到另一个文件夹中
+
+效果：[Python功能制作之【遍历某个文件夹，复制某后缀到另一个文件夹中】_python根据后缀批量复制文件-CSDN博客](https://hanwenshilin-dftx8.blog.csdn.net/article/details/132482613)
+
+### MoreDeleteRenameFile.py :批量删除并重命名文件
+
+含义：文件10001_new10001.png，批量类型的这种文件，改为10001.png
+
+效果：[Python功能制作之正则表达式批量删除并重命名文件_批量重命名 正则表达式-CSDN博客](https://hanwenshilin-dftx8.blog.csdn.net/article/details/134226417)
+
+### GenerateSmallPicture.py：通过8K图片添加4K，2K，1K图片，并给1K图片添加水印
+
+
+
+## 文件夹：TTS- 文本转语音
+
+### mp3LengthGet.py :获取某个文件夹下所有mp3的长度总和
+
+### mp3SpeedChange.py：复制某个文件夹下的所有mp3，并修改播放速度
+
+### ViedoLengthGet.py：获取某个文件夹下所有视频的总时间长度
+
+
+
+## 文件夹：VideoAndAudio- 视频和声音
+
+### SimpleDrawBoard.py :简单的绘画板
+
+
+
 
 
 ## 文件夹：Web - 网页
@@ -94,20 +136,20 @@ See mood update.
 
 
 
-## 文件夹：Auto - 自动化
-
-### CSDNCheck.py：获取CSDN所有发布文章的对应数据
-
-效果：[Python功能制作之获取CSDN所有发布文章的对应数据-CSDN博客](https://blog.csdn.net/q244645787/article/details/140362927)
-
-### FreshVideo.py：自动刷视频和点赞
-
-安卓手机连接adb进行使用，打开对应视频app，然后开始刷
 
 
 
-## 文件夹：OtherFunction其他功能
 
-### PictureConvertASCII.py:将选择图片转换为字符图片
+## 文件夹：Widget - 界面
 
-效果：[Python功能制作之图片转换为字符图片【直接转换图片，不转换为txt】-CSDN博客](https://hanwenshilin-dftx8.blog.csdn.net/article/details/140760254)
+### SimpleDrawBoard.py :简单的绘画板
+
+效果：[Python功能制作之简单的绘画板_python绘画板软件-CSDN博客](https://hanwenshilin-dftx8.blog.csdn.net/article/details/132524125)
+
+
+
+
+
+
+
+
