@@ -80,7 +80,7 @@ def image_to_ascii_image(image_path, output_image_path, new_width=100):
     ascii_to_image(ascii_str_with_newlines, final_img_width, (char_width, char_height), output_image_path)
 
 # 使用示例
-image_path = "C:\\Users\\ADMIN\\Desktop\\test.png"
-output_image_path = "C:\\Users\\ADMIN\\Desktop\\ascii_image.png"
+image_path = "test.jpg"
+output_image_path = "F:\\PythonWork\\Simple_Python_Work\\OtherFunction\\ascii_image.png"
 image_to_ascii_image(image_path, output_image_path)
 print(f"ASCII图像保存在 {output_image_path}")
