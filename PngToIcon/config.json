@@ -1,0 +1,14 @@
+{
+  "language": "zh",
+  "default_export_dir": "",
+  "last_export_dir": "",
+  "default_format": "ico",
+  "remember_settings": true,
+  "last_settings": {
+    "mode": "cover",
+    "padding": 0,
+    "radius": 30,
+    "squircle": false,
+    "transparent": true
+  }
+}
